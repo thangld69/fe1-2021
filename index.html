@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,35 +15,7 @@
   </script>
 <![endif]-->
   <title>Document</title>
-  <style type="text/css">
-    .large-img {
-      display: block;
-      width: 635px;
-      height: 375px;
-      clear: both;
-    }
-
-    .small-img {
-      width: 144px;
-      height: 116px;
-      display: inline-block;
-      padding: 1px;
-      margin-top: 20px;
-      margin-right: 20px;
-      cursor: pointer;
-    }
-
-    .faded {
-      opacity: 0.9
-    }
-
-    .thumb-img {
-      display: flex;
-      flex-wrap: nowrap;
-    }
-  </style>
 </head>
-
 <body>
   <!-- header -->
   <header>
@@ -141,20 +112,20 @@
         <div class="row">
           <div class="col-md-8">
             <div class="main-img">
-              <img src="public/images/about-1-634x373.jpg" class="large-img">
+              <img src="public/images/about-1-634x373.jpg" class="large-img" alt="photo">
             </div>
             <div class="thumb-img">
               <div class="box active" onclick="changeImage(this)">
-                <img src="public/images/about-1-634x373.jpg" class="small-img">
+                <img src="public/images/about-1-634x373.jpg" class="small-img" alt="photo">
               </div>
               <div class="box" onclick="changeImage(this)">
-                <img src="public/images/about-2-634x373.jpg" class="small-img faded">
+                <img src="public/images/about-2-634x373.jpg" class="small-img faded" alt="photo">
               </div>
               <div class="box" onclick="changeImage(this)">
-                <img src="public/images/about-3-634x373.jpg" class="small-img faded">
+                <img src="public/images/about-3-634x373.jpg" class="small-img faded" alt="photo">
               </div>
               <div class="box" onclick="changeImage(this)">
-                <img src="public/images/about-4-634x373.jpg" class="small-img faded">
+                <img src="public/images/about-4-634x373.jpg" class="small-img faded" alt="photo">
               </div>
             </div>
           </div>
@@ -230,8 +201,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100 img-fluid" src="public/images/parallax-1.jpg" alt="First slide" width="100%"
-            height="100%">
+          <img class="d-block w-100 img-fluid" src="public/images/parallax-1.jpg" alt="First slide">
         </div>
         <div class="carousel-caption d-none d-md-block">
           <div class="container">
@@ -246,7 +216,6 @@
       </div>
     </div>
   </div>
-  </div>
   <!-- Our gallery -->
   <div class="ourgallery">
     <div class="title">
@@ -257,19 +226,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <a href="#"><img src="public/images/grid-gallery-1-570x399.jpg" width="100%" height="100%" alt=""></a>
+            <a href="#"><img src="public/images/grid-gallery-1-570x399.jpg" alt=""></a>
             <div class="content">
               <h3> Organic Feed</h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <img src="public/images/grid-gallery-2-570x399.jpg" width="100%" height="100%" alt="">
+            <img src="public/images/grid-gallery-2-570x399.jpg" alt="">
             <div class="content">
               <h3> Fresh Eggs</h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <img src="public/images/grid-gallery-3-570x399.jpg" width="100%" height="100%" alt="">
+            <img src="public/images/grid-gallery-3-570x399.jpg" alt="">
             <div class="content">
               <h3> Feeding Chicken</h3>
             </div>
@@ -281,19 +250,19 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <img src="public/images/grid-gallery-4-570x399.jpg" width="100%" height="100%" alt="">
+            <img src="public/images/grid-gallery-4-570x399.jpg" alt="">
             <div class="content">
               <h3> Eggs for Sale</h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <img src="public/images/grid-gallery-5-570x399.jpg" width="100%" height="100%" alt="">
+            <img src="public/images/grid-gallery-5-570x399.jpg" alt="">
             <div class="content">
               <h3> Poultry Nutrition</h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <img src="public/images/grid-gallery-6-570x399.jpg" width="100%" height="100%" alt="">
+            <img src="public/images/grid-gallery-6-570x399.jpg" alt="">
             <div class="content">
               <h3> Chicken Grazing</h3>
             </div>
@@ -419,7 +388,7 @@
       </div>
     </div>
   </div>
-  <div class="logo-icon">
+  <div class="slick-track">
     <a class="chevron" href="#">prev</a>
     <p>1999</p>
     <p>2003</p>
@@ -441,7 +410,7 @@
               <a href="#" class="a-health">Health Benefits of Farm Fresh <br> Eggs You Need to Know About</a>
               <p>August 9, 2020</p>
               <div class="image">
-                <img src="public/images/post-1-550x247.jpg" alt="post1" width="100%" height="100%">
+                <img src="public/images/post-1-550x247.jpg" alt="post1">
               </div>
             </div>
           </div>
@@ -451,7 +420,7 @@
               <a href="#" class="a-health">Health Benefits of Farm Fresh <br> Eggs You Need to Know About</a>
               <p>August 9, 2020</p>
               <div class="image">
-                <img src="public/images/post-2-550x247.jpg" alt="post2" width="100%" height="100%">
+                <img src="public/images/post-2-550x247.jpg" alt="post2">
               </div>
             </div>
           </div>
@@ -463,7 +432,7 @@
   <div class="map">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22133990.5101442!2d-97.34698987499998!3d47.37480893937645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1624277736781!5m2!1svi!2s"
-      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   </div>
   <!-- about -->
   <div class="about">
